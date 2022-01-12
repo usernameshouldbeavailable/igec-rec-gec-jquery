@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Class Selector</title>
+</head>
+<body>
+    
+    <p class="avinash">Hi, I'm Avinash Seth & Teaching jQuery</p>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('document').ready(function() {
+            
+            // $('.class') - class selector
+
+            $('.avinash').text("Hi, I'm Avinash Seth & This is Class Selector using jQuery");
+
+            // plain javascript
+
+            // document.getElementsByClassName('avinash')[0].innerText = "Hi, I'm Avinash Seth";
+
+
+        });
+    </script>
+</body>
+</html>
